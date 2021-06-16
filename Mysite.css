@@ -1,0 +1,332 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #ec715f;
+  margin: 0 auto;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.logo {
+  height: 70px;
+  margin: auto 0;
+}
+
+.nav-list {
+  margin: auto 0;
+}
+
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  font-size: 16px;
+  color: #fafafa;
+  padding: 0 30px;
+}
+
+main {
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.main-visual {
+  width: 100%;
+  height: 650px;
+  text-align: center;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.main-visual-content {
+  width: 100%;
+  font-size: 64px;
+  color: #fafafa;
+  padding-top: 200px;
+  padding-bottom: 10px;
+}
+
+.main-visual-text {
+  width: 100%;
+  font-size: 20px;
+  color: #fafafa;
+}
+
+.portfolio,
+.profile {
+  width: 100%;
+  background-color: #eceff1;
+}
+
+.portfolio-content {
+  width: 920px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.contents-logo {
+  font-size: 32px;
+  color: #000000;
+  padding-top: 90px;
+  padding-bottom: 8px;
+}
+
+.contents-border {
+  height: 3px;
+  width: 70px;
+  margin: 0 auto;
+  background-color: #ec715f;
+}
+
+.contents-text {
+  font-size: 16px;
+  color: #000000;
+  padding: 30px 0;
+}
+
+.boxes {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 90px;
+}
+
+.portfolio-box {
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-1 {
+  background-image: url(img/sketch.jpg);
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.bg-2 {
+  background-image: url(img/websuku.png);
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.bg-3 {
+  background-image: url(img/write.jpg);
+  margin-bottom: 10px;
+}
+
+.bg-4 {
+  background-image: url(img/webcamp.png);
+  margin-right: 10px;
+}
+
+.bg-5 {
+  background-image: url(img/talk.jpg);
+  margin-right: 10px;
+}
+.bg-6 {
+  background-image: url(img/webcamp-mother.png);
+}
+
+.feature {
+  width: 980px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.feature-box {
+  width: 320px;
+  margin-left: 10px;
+}
+
+.feature-box:first-child {
+  margin: 0;
+}
+
+.icon {
+  font-size: 60px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.feature-box h1 {
+  font-size: 20px;
+  color: #000000;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.feature-box p, .contact-p {
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+}
+
+.profile-content {
+  width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.profile-text {
+  width: 512px;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+.profile-section:first-child {
+  margin-bottom: 20px;
+}
+
+.profile-section p {
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+}
+
+.contact-contents {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-box {
+  width: 400px;
+}
+
+.SNS-position {
+  display: flex;
+  justify-content: left;
+}
+
+.SNS-icons {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.SNS-icons:last-child {
+  margin: 0;
+}
+
+footer {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  background-color: #ec715f;
+}
+
+.footer-text {
+  font-size: 16px;
+  color: #fafafa;
+  line-height: 60px;
+}
+
+@media screen and (max-width: 767px) {
+  header {
+    height: 50px;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .logo {
+    height: 50px;
+    margin: auto 0;
+  }
+  .main-visual {
+    background-image: url(img/code.png);
+  }
+  .main-visual-content {
+    width: 90%;
+    font-size: 40px;
+    margin: 0 auto;
+  }
+  .main-visual-text {
+    width: 90%;
+    font-size: 18px;
+    margin: 0 auto;
+  }
+  .portfolio-content {
+    width: 90%;
+  }
+  .boxes {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  .portfolio-box {
+    margin: 0 auto;
+  }
+  .bg-1, .bg-3, .bg-5 {
+    display: none;
+  }
+  .bg-2, .bg-4 {
+    margin-bottom: 10px;
+  }
+  .feature {
+    width: 90%;
+  }
+  .feature-box {
+    margin: 10px auto 0;
+  }
+  .feature-box:first-child {
+    margin: 0 auto;
+  }
+  .profile-content {
+    width: 90%;
+  }
+  h1 {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  .profile-text {
+    width:  90%%;
+    margin: 0 auto;
+  }
+  .profile-image {
+    margin-bottom: 20px;
+  }
+  .profile-section p {
+    text-align: center;
+  }
+  .contact-contents {
+    width: 90%;
+  }
+  .contact-box {
+    margin: 0 auto;
+  }
+  .contact-p {
+    text-align: center;
+  }
+  .SNS-position {
+    display: flex;
+    justify-content: center;
+  }
+  .SNS-icons {
+    margin-right: 8px;
+  }
+}
